@@ -24,8 +24,8 @@ public class Codigo {
     @Dado("^configurei ambiente para acessar URL Chrome$")
     public void configurei_ambiente_para_acessar_URL_Chrome() throws Throwable {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/leandrobrum/autoMaven/chromedriver");
-        System.out.println("Passou aqui");
+        System.setProperty("webdriver.chrome.driver", "/Users/leandrobrum/Desktop/TesteAuto/chromedriver");
+
 
     }
 
